@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-compatible" content="ie=edge">
+  <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+
+  <link rel="stylesheet" href="Style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <title>My Shopping</title>
+</head>
+ 
+<body >
+  <header>
+  <div class="overlay" ></div>
+  <nav>
+    <h2>SHOP</h2>
+<ul>
+  <li> <a href="index.html">Home</a> </li>
+  <li> <a href="#">About</a></li>
+  <li class="cart">
+      <a href="cart.html">
+        <ion-icon name="bag-outline"></ion-icon>cart <span>0</span>
+
+      </a>
+  </li>
+  
+</ul>
+  </nav>
+  </header>
+
+<div class="container">
+    <div class="image">
+        <img src="images/LS1.png" alt="LS1">
+        <div id="heading">
+            <ion-icon name="heart-outline"  ></ion-icon>
+        <button onclick = "changeHeadingBg('red');">J'aime!</button>
+    </div>
+        <h3>LS1</h3>
+        <h3>$100.00</h3>
+        
+        <input type="hidden" value="100" />
+       
+    <a class="add-cart cart1" href="#">Add Cart</a>
+    </div>
+    <div class="image">
+        <img src="images/LS2.png" alt="LS2">
+        <div id="heading">
+            <ion-icon name="heart-outline"  ></ion-icon>
+        <button onclick = "changeHeadingBg('red');">J'aime!</button>
+    </div>
+        <h3>LS2</h3>
+        <h3>$150.00</h3>
+        <a class="add-cart cart2" href="#">Add Cart</a>
+        <input type="hidden" value="150" />
+    </div>
+    <div class="image">
+        <img src="images/LS3.png" alt="LS3">
+        <div id="heading">
+            <ion-icon name="heart-outline"  ></ion-icon>
+        <button onclick = "changeHeadingBg('red');">J'aime!</button>
+    </div>
+        <h3>LS3</h3>
+        <h3>$200.00</h3>
+        <a class="add-cart cart3" href="#">Add Cart</a>
+        <input type="hidden" value="200" />
+    </div>
+    <div class="image">
+        <img src="images/LS4.png" alt="LS1">
+        <div id="heading">
+            <ion-icon name="heart-outline"  ></ion-icon>
+        <button onclick = "changeHeadingBg('red');">J'aime!</button>
+    </div>
+        <h3>LS4</h3>
+        <h3>$250.00</h3>
+        <a class="add-cart cart4" href="#">Add Cart</a>
+        <input type="hidden" value="250" />
+    </div>
+</div>
+
+ 
+
+<script src="index.js"></script>
+<script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+</body>
+ 
+</html>
